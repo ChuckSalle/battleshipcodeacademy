@@ -1,5 +1,5 @@
 # battleshipcodeacademy
-Simple script para crear un juego de battleship en python 
+#Simple script para crear un juego de battleship en python 
 
 from random import randint
 
@@ -32,7 +32,7 @@ for turn in range(4):
     guess_row = int(raw_input("Guess Row:"))
     guess_col = int(raw_input("Guess Col:"))
 
-    # if the user's right, the game ends
+#if the user's right, the game ends
     if guess_row == ship_row and guess_col == ship_col:
         print "Congratulations! You sunk my battleship!"
         break
